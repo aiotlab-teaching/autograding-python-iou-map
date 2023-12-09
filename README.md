@@ -10,7 +10,7 @@ Implement two functions: **calc_iou()** and **calc_mAP()**. PyTest will be used 
 
 ## 2. Upload Kaggle Detection Results
 
-A studnet needs to upload the model (**obj_det_model.pt**) and result file (**detect_result.csv**) generarted in the competition. 
-GitHub Auto-grading will calculate the mAP of the detection results. The mAP should pass a threshold, like 0.25, but is changeable. 
-We didn't provide the Grouth Truth here because this will reveal the answer of the Kaggle competition, so you cannot test it locally.
+A student needs to upload the model (**obj_det_model.pt**) and result file (**detect_result.csv**) generated in the competition. 
+GitHub Auto-grading will calculate the mAP of the detection results. The mAP should pass a threshold, like 0.25, which is changeable in the future. 
+We didn't provide the Ground Truth file here because that will reveal the answer of the Kaggle competition, so you cannot test it locally.
 PyTest will only check if you have upload the two files: **obj_det_model.pt** and **detect_result.csv**.
