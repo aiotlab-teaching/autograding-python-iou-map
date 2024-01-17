@@ -1,5 +1,5 @@
 import os
-from obj_det_metrics import calc_iou, calc_mAP
+from obj_det_metrics import calc_iou
 
 def test_iou():
     
